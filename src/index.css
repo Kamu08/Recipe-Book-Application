@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.category-link {
+    @apply flex flex-col items-center text-center rounded-md py-2 px-4 border border-gray-300 transition duration-300 ease-in-out shadow-md hover:bg-gray-100 hover:shadow-lg;
+}
